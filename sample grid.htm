@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Trial Grid</title>
+
+<style>
+	.items1{grid-area:header;}
+	.items2{grid-area:menu;}
+	.items3{grid-area:main;}
+	.items4{grid-area:right;}
+	.items5{grid-area:footer;}
+
+
+	
+.grid-container {
+	display:grid;
+	grid-template-areas:'header header header header header header''menu main main main right right''menu footer footer footer footer footer';
+	grid-gap:20px;
+	background-color:yellow;
+	padding:10px;
+	}
+.grid-container>div{
+	background:green;
+	text-align:center;
+	padding:10px;
+	margin:5px;
+}
+
+</style>
+</head>
+
+<body>
+	<div class = "grid-container">
+	<div class = "items1">Header</div>
+	<div class = "items2">Menu</div>
+	<div class = "items3">Main</div>
+	<div class = "items4">Right</div>
+	<div class = "items5">Footer</div>
+
+</div>
+</body>
+</html>

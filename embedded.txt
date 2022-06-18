@@ -1,0 +1,7 @@
+<script>
+
+	function welcome () {
+	name = document.getElementById("first_name");
+	alert("Hello" + name.value);
+}
+</script>

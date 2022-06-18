@@ -1,0 +1,10 @@
+<table>
+<tr>
+<td = colspan ='2'> FRUITS
+</td>
+</tr>
+<tr>
+<td>Orange</td>
+<td>Apple</td>
+</tr>
+</table>

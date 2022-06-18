@@ -1,0 +1,16 @@
+<!Doctype html>
+<head>CSS NAVIGATION </head>
+<body>
+<ul id = "menu">
+	<li><a href = "#"> Home </a> </li>
+	<li><a href = "#"> About </a> </li> 
+	<li><a href = "#"> FAQ </a> </li>
+	<li><a href = "#"> Edit </a> </li>
+
+</ul>
+
+
+
+
+
+</body>

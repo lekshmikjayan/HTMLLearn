@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Task</title>
+</head>
+
+<body>
+//find and replace
+<p id = "txt"></p>
+<input type="text" id="str" placeholder="find"/>
+<br>
+<input type="text" id="str1" placeholder="replace"/>
+<br>
+<button onclick="replace()">Replace</button>
+
+<p id="txt1"></p>
+<script>
+	let x="You know nothing Jon Snow";
+	document.getElementById("str").innerHTML=x;
+	function replace(){
+		find=document.getElementById("str").value;
+		rplc=document.getElementById("str1").value;
+		let y=x.replace(find,rplc);
+		document.getElementById("txt1").innerHTML=y;
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<h1> ANIMATION </h1>
+
+<body>
+
+@keyframes frame1 {
+	from {top:0; left:0}
+	to {top:0; left:300}
+}
+
+.box {
+	width : 100px;
+	height:100px;
+	background:red;
+	position:relative;
+
+animation-name : frame1;
+animation-duration : 5s;
+animation-delay : 3s;
+animation-iteration-count :5;
+animation-fill-mode :forwards;
+animation-direction :alternate;
+
+}
+
+<div class = "box"> </div>
+
+</html>

@@ -1,0 +1,4 @@
+processor Intel i5
+graphic card - Nvidia / AMD 4GB
+RAM - min 8GB 
+Storage - 512GB or more (preferably SSD)

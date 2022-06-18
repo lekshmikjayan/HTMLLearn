@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>ARROW & ANONYMOUS</title>
+</head>
+
+<body>
+
+<p id="sample"></p>
+<script>
+	
+		let fun = (d,c) => d*c;
+		document.getElementById("sample").innerHTML=fun(3,4);
+
+	</script>
+
+<p id="demo"></p>
+<script>
+let fun = function(a,b);
+{
+return a*b;
+}
+document.getElementById("demo").innerHTML=fun(6,9);
+
+</script>
+
+</body>
+</html>

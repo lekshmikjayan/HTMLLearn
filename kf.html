@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title> KEY FRAMES </title>
+	</head>
+<body>
+	<div class = "box"> Animation </div>
+	<style>
+@keyframes my_frameabc {
+	from {top:0;left:0;}
+	to {top:0;left:30%;}
+}
+
+.box{
+	width:700px;
+	height:400px;
+	background:yellow;
+	position:relative;
+	animation-name:my_frameabc;
+	animation-duration:5s;
+	animation-delay:1s;
+	animation-direction:alternate-reverse;
+	animation-iteration-count:infinite;
+	animation-fill-mode:backward;
+	animation-play-state:pause;
+	animation-timing-function:linear;
+}
+</style>
+</body>
+</html>

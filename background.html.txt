@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head> TABLE </head>
+<body>
+	<table order = "1px">
+	<tr>
+	<th>List 1</th>
+	<th>List 2</th>
+	</tr>
+
+	<tbody>
+	<tr>
+	<td>ABCD</td>	
+	<td>PQRS</td>	
+	</tr>
+	</tbody>
+
+</body>
